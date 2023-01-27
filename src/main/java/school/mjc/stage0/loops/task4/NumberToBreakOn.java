@@ -5,7 +5,7 @@ public class NumberToBreakOn {
         if (toBreakWith > numberToGoUntil) {
             System.out.println("Iterating till the end");
         }
-        for (int i = 1; i <= numberToGoUntil; i++) {
+        for (int i = 1; i <= numberToGoUntil + 1; i++) {
             if (i == toBreakWith) {
                 break;
             }
